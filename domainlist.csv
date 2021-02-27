@@ -1,21 +1,30 @@
 id,type,domain,enabled,date_added,date_modified,comment
-19,3,^(.+[-_.])??adse?rv(er?|ice)?s?[0-9]*[-.],1,1585426668,1608564394,
-20,3,^(.+[-_.])??ad[sxv]?[0-9]*[-_.],1,1585426668,1608564396,
-21,3,^(.+[-_.])??telemetry[-.],1,1585426668,1608564398,
-22,3,^(.+[-_.])??xn--,1,1585426668,1608564400,
-23,3,^adim(age|g)s?[0-9]*[-_.],1,1585426668,1608564401,
-24,3,^adtrack(er|ing)?[0-9]*[-.],1,1585426668,1608564403,
-25,3,^advert(s|is(ing|ements?))?[0-9]*[-_.],1,1585426668,1608564404,
-26,3,^aff(iliat(es?|ion))?[-.],1,1585426668,1608564405,
-27,3,^analytics?[-.],1,1585426668,1608564406,
-28,3,^banners?[-.],1,1585426668,1608564408,
-29,3,^beacons?[0-9]*[-.],1,1585426668,1608564427,
-30,3,^count(ers?)?[0-9]*[-.],1,1585426668,1608564421,
-31,3,^pixels?[-.],1,1585426668,1608564418,
-32,3,^stat(s|istics)?[0-9]*[-.],1,1585426668,1608564415,
-33,3,^track(ers?|ing)?[0-9]*[-.],1,1585426668,1608564413,
-34,3,^traff(ic)?[-.],1,1585426668,1608564412,
-35,3,^(ads|logs|cloudservices).roku.com$,1,1585426668,1608564411,
-36,0,track.shipstation.com,1,1586220825,1589684086,"USPS tracking"
-37,0,ib.huluim.com,1,1593787890,1593787985,"Hulu scrubbing thumbnails"
-43,2,^beacons([0-9])?\.(gcp\.)?gvt([0-9])\.com$,1,1608398374,1608398374,"Fixes Google Meet buttons"
+1,0,tijburg.local,1,1593020678,1614394224,"Migrated from /etc/pihole/whitelist.txt"
+2,0,dartsearch.net,1,1593020678,1614394224,"Migrated from /etc/pihole/whitelist.txt"
+3,0,googleadservices.com,1,1593020678,1614394224,"Migrated from /etc/pihole/whitelist.txt"
+4,0,clickserve.dartsearch.net,1,1593020678,1614394224,"Migrated from /etc/pihole/whitelist.txt"
+5,0,www.dartsearch.net,1,1593020678,1614394224,"Migrated from /etc/pihole/whitelist.txt"
+6,0,www.googleadservices.com,1,1593020678,1614394224,"Migrated from /etc/pihole/whitelist.txt"
+7,0,cbsinteractive.hb.omtrdc.net,1,1593020678,1614394224,"Migrated from /etc/pihole/whitelist.txt"
+8,0,cws.conviva.com,1,1593020678,1614394225,"Migrated from /etc/pihole/whitelist.txt"
+9,0,imasdk.googleapis.com,1,1593020678,1614394225,"Migrated from /etc/pihole/whitelist.txt"
+10,0,pubads.g.doubleclick.net,1,1593020678,1614394225,"Migrated from /etc/pihole/whitelist.txt"
+11,0,prod-thumbnails.cbsig.net,1,1593020678,1614394225,"Migrated from /etc/pihole/whitelist.txt"
+12,0,cbsi.com.ssl.sc.omtrdc.net,1,1593020678,1614394225,"Migrated from /etc/pihole/whitelist.txt"
+13,0,clixtrac.com,1,1593020678,1614394225,"Migrated from /etc/pihole/whitelist.txt"
+14,0,mobile.pipe.aria.microsoft.com,1,1593020678,1614394225,"Migrated from /etc/pihole/whitelist.txt"
+15,0,t2.hulu.com,1,1593020678,1614394225,"Migrated from /etc/pihole/whitelist.txt"
+16,0,settings-win.data.microsoft.com,1,1593020678,1614394226,"Migrated from /etc/pihole/whitelist.txt"
+17,0,settings.crashlytics.com,1,1593020678,1614394226,"Migrated from /etc/pihole/whitelist.txt"
+18,0,mobile-collector.newrelic.com,1,1593020678,1614394226,"Migrated from /etc/pihole/whitelist.txt"
+19,0,graph.instagram.com,1,1593020678,1614394226,"Migrated from /etc/pihole/whitelist.txt"
+20,0,nexusrules.officeapps.live.com,1,1593020678,1614394226,"Migrated from /etc/pihole/whitelist.txt"
+21,0,v10.vortex-win.data.microsoft.com,1,1593020678,1614394226,"Migrated from /etc/pihole/whitelist.txt"
+22,0,v10.events.data.microsoft.com,1,1593020678,1614394226,"Migrated from /etc/pihole/whitelist.txt"
+23,0,watson.telemetry.microsoft.com,1,1593020678,1614394226,"Migrated from /etc/pihole/whitelist.txt"
+24,0,blm-solutions.com,1,1593020678,1614394226,"Migrated from /etc/pihole/whitelist.txt"
+25,0,tijburg.com,1,1593020678,1614394227,"Migrated from /etc/pihole/whitelist.txt"
+26,0,rcm-na.amazon-adsystem.com,1,1593020678,1614394227,"Migrated from /etc/pihole/whitelist.txt"
+27,0,aax-us-east.amazon-adsystem.com,1,1593020678,1614394227,"Migrated from /etc/pihole/whitelist.txt"
+29,2,(\.|^)cloudfront\.net$,1,1610648346,1614394227,
+30,0,tijburg.in,1,1614446939,1614446939,"Tijburg Internal Domain"
